@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Verizon regression test suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Verizon Functional Regression Test(failed)">
+    <classes>
+      <class name="com.qa.verizon.tests.SmartPhonePageTest">
+        <methods>
+          <include name="clickIphoneXRTest"/>
+          <include name="verifySmartPhonesPageTitleTest"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.verizon.tests.SmartPhonePageTest -->
+      <class name="com.qa.verizon.tests.iphoneXRPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Customizer"/>
+          <include name="veriyPhoneNamee"/>
+          <include name="teardown"/>
+          <include name="verifyIphoneXRPageTitleTest"/>
+          <include name="enterZipcode"/>
+          <include name="chooseColorPrice"/>
+        </methods>
+      </class> <!-- com.qa.verizon.tests.iphoneXRPageTest -->
+      <class name="com.qa.verizon.tests.HomePageTest1">
+        <methods>
+          <include name="hooverOverAncClickTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.verizon.tests.HomePageTest1 -->
+    </classes>
+  </test> <!-- Verizon Functional Regression Test(failed) -->
+</suite> <!-- Failed suite [Verizon regression test suite] -->
